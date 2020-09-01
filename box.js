@@ -17,7 +17,7 @@ class box
         push()
         translate(pos.x,pos.y)
         rectMode(CENTER)
-        if (this.body.speed>3)
+        if (this.body.speed>5)
         {
             Matter.World.remove(world,this.body)
             this.visibility=this.visibility-5
